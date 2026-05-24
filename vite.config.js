@@ -19,10 +19,19 @@ export default defineConfig({
     },
     rollupOptions: {
       output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom'],
-          framer: ['framer-motion'],
-          icons: ['@phosphor-icons/react']
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            if (id.includes('react-dom') || id.includes('react/')) {
+              return 'react';
+            }
+            if (id.includes('framer-motion')) {
+              return 'framer';
+            }
+            if (id.includes('@phosphor-icons')) {
+              return 'icons';
+            }
+            return 'vendor';
+          }
         },
       },
     },
