@@ -2,7 +2,7 @@
 
 An ultra-performance, single-page personal hub designed with a luxury editorial aesthetic. This project showcases premium interaction design, hardware-accelerated fluid motion, and professional SEO architecture.
 
-Live URL: [https://bekhruz.dev](https://bekhruz.dev)
+Live URL: [https://tbekhruz.vercel.app](https://tbekhruz.vercel.app)
 
 ---
 

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bekhruz.dev/sitemap.xml
+Sitemap: https://tbekhruz.vercel.app/sitemap.xml
